@@ -7,7 +7,6 @@ const Counter = () => {
 
     return (
         <div>
-
         <h1>My counter with Context API</h1>
             <button onClick={decrement}>-</button>
             <p>{count}</p>
