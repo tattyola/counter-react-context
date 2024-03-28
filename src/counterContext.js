@@ -12,7 +12,7 @@ const decrement = () => {
 }
 
     return (
-        <CounterContext.Provider value={{ count, increment, decrement }}>
+        <CounterContext.Provider value={ { count, increment, decrement } }>
             {children}
         </CounterContext.Provider>
     );
